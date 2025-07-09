@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-    Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #f2f2f2;
   margin-bottom: 10rem;
 }
@@ -63,7 +63,7 @@ img {
 
 .search-bar {
   position: fixed;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   background-color: white;
   width: 100%;
   display: flex;
@@ -79,7 +79,14 @@ img {
   height: 1.5rem;
 }
 .container-list {
-  padding-top: 9rem;
+  padding-top: 10rem;
+}
+.not-found {
+  padding: 18px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  font-style: italic;
 }
 
 .product-list {
@@ -142,6 +149,7 @@ img {
   font-weight: 500;
   color: rgb(31, 31, 31);
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .afflink {
@@ -238,7 +246,7 @@ img {
 .custom-button {
   background-color: #c2c5f7;
   text-align: center;
-  font-weight: 400;
+  font-weight: 600;
   width: 100%;
   padding: 8px 8px;
   border-radius: 5px;
@@ -253,9 +261,9 @@ img {
 
 .custom-button.banner {
   padding: 16px 8px;
-  width: 350px;
-  max-width: 350px;
-  margin: 16px auto;
+  /* width: 350px; */
+  /* max-width: 350px; */
+  margin-bottom: 16px;
 }
 
 .check {
@@ -263,7 +271,7 @@ img {
 }
 
 .custom-button.check {
-  background-image: url('https://www.patriotgoldenfoundation.com/hosted/images/65/6128d07b7f43c1bdd7ac9307fbcb13/BG-3.jpg');
+  background-image: url("https://www.patriotgoldenfoundation.com/hosted/images/65/6128d07b7f43c1bdd7ac9307fbcb13/BG-3.jpg");
   color: #fff;
   font-weight: 400;
 }
@@ -278,7 +286,11 @@ img {
 }
 
 .custom-button.aliexpress {
-  background-color: #f13434;
+  background-color: #d70000;
+  color: #fff;
+}
+.custom-button.temu {
+  background-color: #f77500;
   color: #fff;
 }
 
@@ -317,8 +329,8 @@ img {
   padding: 16px 10px;
   border-radius: 5px;
   text-align: center;
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   color: #2e2f35;
   background-color: white;
 }
